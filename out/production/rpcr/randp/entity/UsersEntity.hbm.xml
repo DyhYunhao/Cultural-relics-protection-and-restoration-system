@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="randp.entity.UsersEntity" table="users" schema="randp">
+        <id name="uid" column="uid"/>
+        <property name="username" column="username"/>
+        <property name="password" column="password"/>
+        <property name="email" column="email"/>
+        <property name="phone" column="phone"/>
+        <property name="post" column="post"/>
+        <property name="typeid" column="typeid"/>
+        <property name="unit" column="unit"/>
+        <property name="address" column="address"/>
+        <property name="idcard" column="idcard"/>
+        <property name="type" column="type"/>
+        <property name="status" column="status"/>
+        <property name="ltime" column="ltime"/>
+        <property name="lip" column="lip"/>
+        <property name="dcount" column="dcount"/>
+    </class>
+</hibernate-mapping>

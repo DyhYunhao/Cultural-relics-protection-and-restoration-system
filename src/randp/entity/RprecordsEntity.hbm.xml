@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="randp.entity.RprecordsEntity" table="rprecords" schema="randp">
+        <id name="rpid" column="rpid"/>
+        <property name="crname" column="crname"/>
+        <property name="bssize" column="bssize"/>
+        <property name="bsweight" column="bsweight"/>
+        <property name="bspicture" column="bspicture"/>
+        <property name="bssave" column="bssave"/>
+        <property name="disde" column="disde"/>
+        <property name="dispic" column="dispic"/>
+        <property name="assize" column="assize"/>
+        <property name="asweight" column="asweight"/>
+        <property name="aspicture" column="aspicture"/>
+        <property name="assave" column="assave"/>
+        <property name="astime" column="astime"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/randp</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+      <mapping resource="randp/entity/ApplyEntity.hbm.xml"/>
+      <mapping class="randp.entity.ApplyEntity"/>
+      <mapping resource="randp/entity/CulrelicEntity.hbm.xml"/>
+      <mapping class="randp.entity.CulrelicEntity"/>
+      <mapping resource="randp/entity/MediaEntity.hbm.xml"/>
+      <mapping class="randp.entity.MediaEntity"/>
+      <mapping resource="randp/entity/RepairlogEntity.hbm.xml"/>
+      <mapping class="randp.entity.RepairlogEntity"/>
+      <mapping resource="randp/entity/RprecordsEntity.hbm.xml"/>
+      <mapping class="randp.entity.RprecordsEntity"/>
+      <mapping resource="randp/entity/UserdetailEntity.hbm.xml"/>
+      <mapping class="randp.entity.UserdetailEntity"/>
+      <mapping resource="randp/entity/UsersEntity.hbm.xml"/>
+      <mapping class="randp.entity.UsersEntity"/>
+      <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

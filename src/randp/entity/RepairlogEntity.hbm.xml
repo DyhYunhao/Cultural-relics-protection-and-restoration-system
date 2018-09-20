@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="randp.entity.RepairlogEntity" table="repairlog" schema="randp">
+        <id name="rlid" column="rlid"/>
+        <property name="rpid" column="rpid"/>
+        <property name="rlpep" column="rlpep"/>
+        <property name="rltime" column="rltime"/>
+        <property name="rlpls" column="rlpls"/>
+        <property name="rltool" column="rltool"/>
+        <property name="rldecon" column="rldecon"/>
+        <property name="rlchange" column="rlchange"/>
+        <property name="rlctime" column="rlctime"/>
+        <property name="rlcname" column="rlcname"/>
+    </class>
+</hibernate-mapping>

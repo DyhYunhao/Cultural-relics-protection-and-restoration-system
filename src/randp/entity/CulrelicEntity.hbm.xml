@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="randp.entity.CulrelicEntity" table="culrelic" schema="randp">
+        <id name="crid" column="crid"/>
+        <property name="crname" column="crname"/>
+        <property name="crnum" column="crnum"/>
+        <property name="crmeq" column="crmeq"/>
+        <property name="crtimes" column="crtimes"/>
+        <property name="crlevel" column="crlevel"/>
+        <property name="crhouse" column="crhouse"/>
+        <property name="crcome" column="crcome"/>
+        <property name="crcom" column="crcom"/>
+    </class>
+</hibernate-mapping>

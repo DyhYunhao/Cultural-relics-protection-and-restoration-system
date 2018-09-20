@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="randp.entity.BefstatusEntity" table="befstatus" schema="randp">
+        <id name="bsid" column="bsid"/>
+        <property name="bssize" column="bssize"/>
+        <property name="bsweight" column="bsweight"/>
+        <property name="bspicture" column="bspicture"/>
+        <property name="bssave" column="bssave"/>
+        <property name="disde" column="disde"/>
+        <property name="dispic" column="dispic"/>
+        <property name="bsvedio" column="bsvedio"/>
+    </class>
+</hibernate-mapping>
